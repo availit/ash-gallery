@@ -220,6 +220,14 @@ section {
     padding: 0;
 }
 
+#contact .col-2-3 [class*='col-'] {
+    padding: 0;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+}
+
 /* Clearfix */
 
 .clearfix:after {
@@ -1519,7 +1527,7 @@ blockquote {
 /* Scroll Up */
 
 #scrollUp {
-    bottom: 15px;
+    bottom: 62px;
     right: 30px;
     width: 70px;
     height: 80px;

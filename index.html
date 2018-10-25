@@ -34,13 +34,13 @@
 <body>
 
 <!-- Preloader -->
-<div id="preloader">
+<!-- <div id="preloader">
     <div id="status" class="la-ball-triangle-path">
         <div></div>
         <div></div>
         <div></div>
     </div>
-</div>
+</div> -->
 <!--End of Preloader-->
 
 <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
@@ -182,8 +182,7 @@
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
                             <h4>Cut by hand</h4>
-                            <p>Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro
-                                neglegentur iudico</p>
+                            <p>Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum.</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -197,8 +196,7 @@
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
                             <h4>First Come First Serve</h4>
-                            <p>Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit
-                                detracto mediocrem disputationi</p>
+                            <p>Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit detracto mediocrem disputationi</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -212,8 +210,7 @@
                         <!--Icon Block Description-->
                         <div class="icon-block-description">
                             <h4>Made With Love</h4>
-                            <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-                                nemore vivendum</p>
+                            <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum</p>
                         </div>
                     </div>
                     <!--End of Icon Block-->
@@ -242,8 +239,10 @@
         <!--End of Introduction-->
 
 
+        <!-- Masonry Lity gallery -->
+        <div id="anymod-nbolb"></div>
         <!--Gallery-->
-        <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
+        <!-- <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
                  data-featherlight-filter="a">
 
                 <a href="images/gallery-images/gallery-image-1.jpg" data-featherlight="image" class="col-3 wow fadeIn"
@@ -259,7 +258,7 @@
                 <a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow fadeIn"
                    data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/></a>
 
-        </aside>
+        </aside> -->
         <!--End of Gallery-->
 
 
@@ -270,7 +269,7 @@
 
 
                 <!--Content Left Side-->
-                <div class="col-3">
+                <div class="col-3" style="border: 1px dashed #333;">
                     <!--User Testimonial-->
                     <blockquote class="testimonial text-right bigtest">
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -431,9 +430,28 @@
                     <h3>CONTACT</h3>
                     <h2 class="section-title">Ask me anything!</h2>
                 </div>
-                <div class="pricing-block col-1 wow fadeInUp" data-wow-delay="0.4s">
-                  This is contact form
-                </div>
+                <!-- Netlify Form -->
+                  <form id="contactForm" netlify>
+                    <div class="col-2">
+                      <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="col-2">
+                      <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="col-2">
+                      <input type="text" placeholder="Your Email">
+                    </div>
+                    <div class="col-2">
+                      <input type="phone" placeholder="Your Phone Number">
+                    </div>
+                    <div class="col-1 wow fadeInUp" data-wow-delay="0.4s">
+                      <textarea id="message" placeholder="Your Message" name="message" rows="8" cols="80"></textarea>
+                    </div>
+                    <div class="col-1">
+                      <input type="submit" value="Send">
+                    </div>
+                  </form>
+
 
                 <!--Pricing Block-->
                 <!-- <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
@@ -519,11 +537,11 @@
                         <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a target="_blank" title="Google+" href="http://google.com/+username">
                         <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
                         <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
@@ -550,17 +568,17 @@
 <!-- Include JavaScript resources -->
 <script src="js/jquery.1.8.3.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="js/featherlight.min.js"></script>
-<script src="js/featherlight.gallery.min.js"></script>
+<!-- <script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script> -->
 <script src="js/jquery.enllax.min.js"></script>
 <script src="js/jquery.scrollUp.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
+<!-- <script src="js/jquery.easing.min.js"></script> -->
 <script src="js/jquery.stickyNavbar.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/images-loaded.min.js"></script>
-<script src="js/lightbox.min.js"></script>
+<!-- <script src="js/lightbox.min.js"></script> -->
 <script src="js/site.js"></script>
 
-
+<script project="86553E" src="https://cdn.anymod.com/v1"></script>
 </body>
 </html>
