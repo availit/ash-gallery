@@ -981,7 +981,7 @@ blockquote {
 }
 
 /* --------- 6.4 Gallery ---------- */
-
+/* 
 #gallery img {
     max-height: 300px;
 }
@@ -1027,7 +1027,7 @@ blockquote {
     opacity: 1;
     top: 50%;
     left: 50%;
-}
+} */
 
 /**
  * Featherlight – ultra slim jQuery lightbox
